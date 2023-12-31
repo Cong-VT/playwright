@@ -1,0 +1,7 @@
+#report
+allure-report/
+allure-results/
+playwright-report/
+
+#download
+stored/download

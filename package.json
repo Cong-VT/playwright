@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.5",
+    "allure-commandline": "^2.25.0",
+    "allure-playwright": "^2.10.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/pg": "^8.10.9",
+    "npm": "^10.2.4",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.11.3",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "test-demo": "npx playwright test --project=chromium tests/example.spec.ts",
+    "test-ui": "npx playwright test --ui"
+  }
+}
